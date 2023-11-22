@@ -1,0 +1,38 @@
+
+.main-div
+{
+  margin-top: 20px;
+}
+#inputState,#inputCountry{
+    height: 35px;;
+  }
+  .row-check{
+    height: 65px;
+  
+  }
+  .modal-header{
+    height: 50px;
+  }
+  .modal-footer{
+    height: 50px;
+  }
+  .form-row{
+    height: 75px;
+    margin-top: 2px;
+  
+  }
+  .organization{
+     justify-content: center;
+     margin-top: 70px;
+      width: 100%;
+      position: absolute;
+      top:0;
+      left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* Lower z-index to make sure it appears above the navbar */
+  overflow: auto; /* Enable scrolling if the content overflows */
+      }
+
+  
+  
